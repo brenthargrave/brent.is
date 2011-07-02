@@ -130,8 +130,8 @@ input:invalid, textarea:invalid {
 /* These selection declarations have to be separate
    No text-shadow: twitter.com/miketaylr/status/12228805301
    Also: hot pink! */
-::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
-::selection { background:#FF5E99; color:#fff; text-shadow: none; }
+::-moz-selection{ background: black; color:#666; text-shadow: none; }
+::selection { background: black; color:#666; text-shadow: none; }
 
 /* j.mp/webkit-tap-highlight-color */
 a:link { -webkit-tap-highlight-color: #FF5E99; }
@@ -168,25 +168,46 @@ a:hover { color: #036; }
  * Author: Brent Hargrave
  */
 
+a, #nav a { 
+  -webkit-transition: color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out; 
+  transition: color 0.2s ease-out; 
+  -o-transition: color 0.2s ease-out;
+}
+
 body { 
   background-color: #FFC06C; 
   color: #262626;
-  font-size: 5em;
+  font-size: 4em;
+}
+
+#introduction {
+  height: 100%;
 }
 
 #preamble {
   float: left;
   font-family: Helvetica;
   font-weight: normal !important;
+  height: 100%;
 }
 
-#nickname { color: #916B46;}
-
 /* navigation */
-#nav { display: inline; float: right; }
-#nav li { color: #cbcfcf; overflow: hidden; }
-#nav li a { color: #916B46; text-decoration: none; }
-#nav li a:hover { color: #262626; }
+#nav { 
+  display: inline; 
+  float: left; 
+  list-style-type: none;
+  margin-left: 0em;
+}
+
+#nav li a {
+  color: #B88552;
+  text-decoration: none;
+}
+
+#nav li a:hover { 
+  color: #916B46;
+}
 
 
 /**
