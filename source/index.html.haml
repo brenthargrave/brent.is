@@ -12,8 +12,9 @@
     -# %link{rel: "apple-touch-icon", href:"http://brent.is/images/apple-touch-icon.png"}
     -# TODO: setup a feedburner for your tumblr?
     -# %link{rel: "alternate", type: "application/rss+xml", title: "Brent Hargrave's RSS", href: "http://feeds.feedburner.com/brentis"}
-    %link{rel: "stylesheet", href: "/css/style.css"}
-    %script{type: "text/javascript", src:"/js/google_analytics.js"}
+    = favicon_tag 'favicon.ico'
+    = stylesheet_link_tag 'style'
+    = javascript_include_tag 'google_analytics'
   %body
     %p#introduction
       #preamble
@@ -23,7 +24,7 @@
           %a{href: 'https://github.com/jamescallmebrent', title: "coding"}
             coding
         %li
-          %a{href: 'http://www.linkedin.com/in/jamescallmebrent', title: "hustling"} 
+          %a{href: 'http://www.linkedin.com/in/jamescallmebrent', title: "hustling"}
             hustling
         %li
           %a{href: 'http://tumbling.brent.is', title: "tumbling"}

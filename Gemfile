@@ -1,9 +1,5 @@
 source 'http://rubygems.org'
 
-ruby "2.0.0"
-
-gem 'sinatra'
-gem 'shotgun'
-gem 'heroku'
-gem 'haml'
+gem 'middleman'
+gem 'middleman-livereload', '~> 3.4.2'
 
