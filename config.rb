@@ -1,3 +1,4 @@
+Time.zone = "Eastern Time (US & Canada)"
 
 configure :development do
   set :debug_assets, true
