@@ -19,30 +19,14 @@ html
       #preamble
         | brent is&nbsp;
       ul#nav
-        li
-          a*{href: 'https://github.com/jamescallmebrent', title: "coding"}
-            | coding
-        li
-          a*{href: 'http://www.linkedin.com/in/jamescallmebrent', title: "hustling"}
-            | hustling
-        li
-          a*{href: 'http://tumbling.brent.is', title: "tumbling"}
-            | tumbling
-        /%li
-          a href: 'https://kindle.amazon.com/profile/Brent-Hargrave/18265'  reading
-        /%li
-          a href: '?'  writing
-        li
-          a*{href: 'https://twitter.com/#!/brenthargrave', title: 'babbling'}
-            | babbling
-        / I don't share much of anything on pinboard; not worth linking to
-        / %li
-          a href: 'http://pinboard.in/u:jamescallmebrent', title: 'pinning'
-            | pinning
-        li
-          a*{href: 'http://last.fm/user/jbah', title: 'listening'}
-            | listening
-        li
-          a*{href: 'mailto:brent@brent.is', title: 'Email'}
-            | reachable
+        - { coding: 'https://github.com/jamescallmebrent', \
+            husting:  'http://www.linkedin.com/in/jamescallmebrent', \
+            tumbling:  'http://tumbling.brent.is', \
+            babbling: 'https://twitter.com/#!/brenthargrave', \
+            listening: 'http://last.fm/user/jbah', \
+            reachable: 'mailto:brent@brent.is' \
+            }.each do |title, href|
+            li
+              a*{ :href => href, :title => title }
+                | #{title}
 
