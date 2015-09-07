@@ -1,0 +1,49 @@
+doctype 5
+html
+  head
+    meta charset="utf-8"
+    meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"
+    meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    title Brent Hargrave
+    meta name="description" content="Brent Hargrave is..."
+    / TODO: take a screenie of the site once complete, make it a thumbnail
+    / %meta{property:"og:image", content: "http://brent.is/images/thumbnail.png"}
+    / %link{rel: "shortcut icon", href: "http://brent.is/images/favicon.png", type: "image/png"}
+    / %link{rel: "apple-touch-icon", href:"http://brent.is/images/apple-touch-icon.png"}
+    / TODO: setup a feedburner for your tumblr?
+    / %link{rel: "alternate", type: "application/rss+xml", title: "Brent Hargrave's RSS", href: "http://feeds.feedburner.com/brentis"}
+    = favicon_tag 'favicon.ico'
+    = stylesheet_link_tag 'style'
+    = javascript_include_tag 'google_analytics'
+  body
+    p#introduction
+      #preamble
+        | brent is&nbsp;
+      ul#nav
+        li
+          a*{href: 'https://github.com/jamescallmebrent', title: "coding"}
+            | coding
+        li
+          a*{href: 'http://www.linkedin.com/in/jamescallmebrent', title: "hustling"}
+            | hustling
+        li
+          a*{href: 'http://tumbling.brent.is', title: "tumbling"}
+            | tumbling
+        /%li
+          a href: 'https://kindle.amazon.com/profile/Brent-Hargrave/18265'  reading
+        /%li
+          a href: '?'  writing
+        li
+          a*{href: 'https://twitter.com/#!/brenthargrave', title: 'babbling'}
+            | babbling
+        / I don't share much of anything on pinboard; not worth linking to
+        / %li
+          a href: 'http://pinboard.in/u:jamescallmebrent', title: 'pinning'
+            | pinning
+        li
+          a*{href: 'http://last.fm/user/jbah', title: 'listening'}
+            | listening
+        li
+          a*{href: 'mailto:brent@brent.is', title: 'Email'}
+            | reachable
+
