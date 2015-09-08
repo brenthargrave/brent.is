@@ -19,7 +19,8 @@ html
       #preamble
         | brent is&nbsp;
       ul#nav
-        - { coding: 'https://github.com/jamescallmebrent', \
+        - { writing: '/writing',
+            coding: 'https://github.com/jamescallmebrent', \
             hustling:  'http://www.linkedin.com/in/jamescallmebrent', \
             tumbling:  'http://tumbling.brent.is', \
             babbling: 'https://twitter.com/#!/brenthargrave', \
@@ -27,6 +28,6 @@ html
             reachable: 'mailto:brent@brent.is' \
             }.each do |title, href|
             li
-              a*{ :href => href, :title => title }
+              a*{ href: href, title: title }
                 | #{title}
 
