@@ -1,7 +1,9 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
+
+ruby '2.2.3'
 
 gem 'middleman'
-gem 'middleman-livereload', '~> 3.4.2'
+gem 'middleman-livereload'
 gem 'haml2slim'
 gem 'slim'
 gem 'middleman-blog'
