@@ -1,7 +1,7 @@
 ---
 title: Hello, world!
 date: 2015.09.07
-tags: not-code
+tags: rest
 published: false
 ---
 
