@@ -8,10 +8,14 @@ html
     title Brent Hargrave
     // blank favicon, see: http://davidwalsh.name/blank-favicon
     link href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII=" rel="icon" type="image/x-icon"
-    = stylesheet_link_tag 'style'
+    /= stylesheet_link_tag 'style'
     = javascript_include_tag 'google_analytics'
   body
-    p#introduction
+    header
+      = link_to '/' do
+        h1 Brent Hargrave
+
+    /p#introduction
       #preamble
         | brent is&nbsp;
       ul#nav
