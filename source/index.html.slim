@@ -15,12 +15,11 @@ html
       = link_to '/' do
         h1 Brent Hargrave
     ul
-      = ap blog.articles.count
       - blog.articles.each do |article|
         li
           = link_to article.url do
-            h1= article.title
-            time= article.date.strftime('%b %e %Y')
+            h2= article.title
+            time= article.date.strftime('%b %e')
 
     /p#introduction
       #preamble

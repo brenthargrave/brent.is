@@ -12,7 +12,10 @@ set :images_dir, 'images'
 activate :blog do |blog|
   blog.prefix = 'writing'
   blog.layout = false
-  blog.permalink = "/{title}.html"
+  "/{title}.html".tap do |format|
+    blog.sources = format
+    blog.permalink = format
+  end
 end
 
 configure :build do
