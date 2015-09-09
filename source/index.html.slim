@@ -3,5 +3,5 @@ ul
     li
       = link_to article.url do
         h2= article.title
-        time= article.date.strftime('%b %e')
+        time= without_year article.date
 

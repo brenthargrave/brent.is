@@ -1,9 +1,16 @@
 = wrap_layout :layout do
   article
-    h1= current_article.title
-    - if subtitle = current_article.metadata[:page]['subtitle']
-      h2= subtitle
-    = yield
+    header
+      h1= current_article.title
+      - if subtitle = current_article.metadata[:page]['subtitle']
+        h2= subtitle
+    section= yield
+    footer
+      span
+        | Published
+      | #{with_year(current_article.date)} by
+      = link_to "@brenthargrave", "https://twitter.com/brenthargrave", target: :_blank
+
   nav
     - %w{ previous next }.each do |serial|
       - if article = current_article.send("#{serial}_article")

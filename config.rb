@@ -31,3 +31,12 @@ end
 # writing/hello-world.html
 activate :directory_indexes
 
+helpers do
+  def without_year date
+    date.strftime('%b %e')
+  end
+  def with_year date
+    date.strftime('%b %e %Y')
+  end
+end
+
