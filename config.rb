@@ -12,6 +12,7 @@ set :partials_dir, 'partials'
 
 activate :blog do |blog|
   blog.prefix = 'writing'
+  blog.layout = 'writing'
   "/{title}.html".tap do |format|
     blog.sources = format
     blog.permalink = format
