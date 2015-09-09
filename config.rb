@@ -8,10 +8,10 @@ end
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
+set :partials_dir, 'partials'
 
 activate :blog do |blog|
   blog.prefix = 'writing'
-  blog.layout = false
   "/{title}.html".tap do |format|
     blog.sources = format
     blog.permalink = format
