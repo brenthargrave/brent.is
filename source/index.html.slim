@@ -1,7 +1,11 @@
-ul
+ul#post-list
   - blog.articles.each do |article|
     li
-      = link_to article.url do
-        h2= article.title
-        time= without_year article.date
+      - url = article.url
+      = link_to url do
+        aside.dates= without_year article.date
+      = link_to url do
+        | #{article.title}
+        - if subtitle = article.metadata[:page]['subtitle']
+          h2= subtitle
 

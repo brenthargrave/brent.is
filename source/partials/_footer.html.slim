@@ -6,14 +6,16 @@
     listening: 'https://last.fm/user/jbah', \
     }.map { |title, href| link_to(title.to_s, href, target: :_blank) }.to_sentence
 
-footer
+footer#post-list-footer
+  - email = "brent@brent.is"
   markdown:
     I build API-backed iOS apps. My recent works include [Putty](http://putty.ink)
     and [Hipbone](http://hipboneapp.com). You'll find me writing here,
     and elsewhere #{other_activities}.
 
-    I'm reachable at #{mail_to("brent@brent.is")}
+    I'm reachable at #{mail_to(email, email, target: :_blank)}
 
-  small
-    | Made with &#9825; in NYC.
+footer#footer
+  p.small
+    | Made with &#9825; in Brooklyn.
 

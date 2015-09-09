@@ -11,9 +11,10 @@ html
     = stylesheet_link_tag 'style'
   body
     section#wrapper
-      header
-        = link_to '/' do
-          h1 Brent Hargrave
+      header#header
+        // TODO: fix style
+        = link_to('/', class: :index) do
+          h3 Brent Hargrave
       = yield
       = partial :footer
       = javascript_include_tag 'google_analytics'
