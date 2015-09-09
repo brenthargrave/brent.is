@@ -1,4 +1,12 @@
 = wrap_layout :layout do
-  h1 foo
   article
+    h1= current_article.title
+    - if subtitle = current_article.metadata[:page]['subtitle']
+      h2= subtitle
     = yield
+  nav
+    - %w{ previous next }.each do |serial|
+      - if article = current_article.send("#{serial}_article")
+        - arrow_html = serial[/prev/] ? "&larr;" : "&rarr;"
+        = link_to "#{arrow_html} #{article.title}", article.url
+

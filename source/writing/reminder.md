@@ -1,9 +1,8 @@
 ---
-title: To build a reminder
+title: A reminder.
+subtitle: Before all else, instrument your mission metric.
 date: 2015-09-09
 ---
-
-# To build a reminder.
 
 I had few connections in New York when I moved here six years ago. I lucked out, though, and arrived during [Social Media Week](http://socialmediaweek.org), a conference filled with tech professionals. I attended every event I could. Another entrepreneur I met that week, [Brett Martin](https://twitter.com/brett1211), had also recently moved here and was equally eager to make connections. He had a vision for a mobile app we both could have used that week, one that would show you who is nearby and what interests you share with them. It promised to help me make new connections in the city, so I joined Brett to help bring it to life.
 
