@@ -8,4 +8,5 @@ gem 'haml2slim'
 gem 'slim'
 gem 'middleman-blog'
 gem 'builder'
+gem 'awesome_print'
 
