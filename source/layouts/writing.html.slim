@@ -1,19 +1,25 @@
 = wrap_layout :layout do
-  article
+  article.post
     header
       h1= current_article.title
       - if subtitle = current_article.metadata[:page]['subtitle']
         h2= subtitle
-    section= yield
-    footer
-      span
-        | Published
-      | #{with_year(current_article.date)} by
-      = link_to "@brenthargrave", "https://twitter.com/brenthargrave", target: :_blank
-
-  nav
+    section.postbody
+      = yield
+    footer#post-meta.group
+      div
+        span Published on
+        ' #{with_year(current_article.date)} by
+        = link_to "@brenthargrave", "https://twitter.com/brenthargrave", target: :_blank
+      // TODO
+      /section#sharing
+  nav#post-nav
     - %w{ previous next }.each do |serial|
-      - if article = current_article.send("#{serial}_article")
-        - arrow_html = serial[/prev/] ? "&larr;" : "&rarr;"
-        = link_to "#{arrow_html} #{article.title}", article.url
+      span(class="#{serial[0..3]}")
+        - if article = current_article.send("#{serial}_article")
+          - arrow_html = serial[/prev/] ? "&larr;" : "&rarr;"
+          = link_to article.url do
+            span.arrow
+              ' #{arrow_html}
+            = article.title
 
