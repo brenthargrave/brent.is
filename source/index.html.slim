@@ -20,20 +20,6 @@ html
           = link_to article.url do
             h2= article.title
             time= article.date.strftime('%b %e')
-
-    /p#introduction
-      #preamble
-        | brent is&nbsp;
-      ul#nav
-        - { writing: '/writing',
-            building: 'https://github.com/jamescallmebrent', \
-            hustling:  'http://www.linkedin.com/in/jamescallmebrent', \
-            tumbling:  'http://tumbling.brent.is', \
-            babbling: 'https://twitter.com/#!/brenthargrave', \
-            listening: 'http://last.fm/user/jbah', \
-            reachable: 'mailto:brent@brent.is' \
-            }.each do |title, href|
-            li
-              a*{ href: href, title: title }
-                | #{title}
+    footer
+      = partial :footer
 
