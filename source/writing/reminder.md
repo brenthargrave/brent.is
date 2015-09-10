@@ -14,7 +14,7 @@ In hindsight, I suspect we could have. In order to surface people nearby with sh
 
 And to measure our impact on customers' social connections, we could have measured the change in that curve over time, their "connection rate," before and after joining the service:
 
-![connection-rate-change](reminder/connections-count.jpg)
+![connection-rate-change](reminder/connect-rate.jpg)
 
 Would Sonar have evolved differently had I built that visual? Who knows… that’s unknowable. But I believe it would have buttressed us against the turmoil typical of startups, helped us stay focused, by serving as a persistent reminder of the value we hoped to deliver, the change we hoped to affect, and of how close we were to achieving that goal. As a reminder of why we chose *it* in the first place, over all other pursuits.
 
