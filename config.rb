@@ -44,3 +44,5 @@ helpers do
   end
 end
 
+ignore "/tumbling.html"
+
