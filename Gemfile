@@ -9,4 +9,7 @@ gem 'slim'
 gem 'middleman-blog'
 gem 'builder'
 gem 'awesome_print'
+gem 'middleman-inliner'
+gem 'middleman-minify-html'
+gem 'middleman-imageoptim'
 
