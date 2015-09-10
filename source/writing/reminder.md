@@ -1,6 +1,5 @@
 ---
 title: A reminder.
-subtitle: Before all else, instrument your mission metric.
 date: 2015-09-09
 ---
 
