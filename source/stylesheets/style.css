@@ -484,3 +484,10 @@ h7 { max-width: 80%; }
 #avatar {display: none; }
 h7 { max-width: 100%; }
 }
+
+.footnotes ol li { list-style-type: decimal; list-style-position: inside; }
+.footnotes {
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
