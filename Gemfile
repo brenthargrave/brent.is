@@ -13,3 +13,12 @@ gem 'middleman-inliner'
 gem 'middleman-minify-html'
 gem 'middleman-imageoptim'
 
+source 'https://rails-assets.org' do
+  %w{
+    jquery
+    jquery-externalize
+  }.each do |lib|
+    gem "rails-assets-#{lib}"
+  end
+end
+
