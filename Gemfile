@@ -12,6 +12,7 @@ gem 'awesome_print'
 gem 'middleman-inliner'
 gem 'middleman-minify-html'
 gem 'middleman-imageoptim'
+gem 'middleman-dotenv'
 
 source 'https://rails-assets.org' do
   %w{

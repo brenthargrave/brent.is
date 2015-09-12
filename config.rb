@@ -1,5 +1,7 @@
 Time.zone = "Eastern Time (US & Canada)"
 
+activate :dotenv
+
 configure :development do
   set :debug_assets, true
   activate :livereload
@@ -42,7 +44,18 @@ helpers do
   def with_year date
     date.strftime('%b %e %Y')
   end
+  def author
+    "Brent Hargrave"
+  end
+  def site_domain
+    "brent.is"
+  end
+  def site_url
+    "http://#{site_domain}"
+  end
 end
 
 ignore "/tumbling.html"
+
+page "writing/feed.xml", layout: false
 
