@@ -3,7 +3,7 @@
     header
       h1= current_article.title
       - if subtitle = current_article.metadata[:page]['subtitle']
-        h2= subtitle
+        h2.headline= subtitle
     section.postbody
       = yield
     footer#post-meta.group

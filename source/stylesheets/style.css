@@ -53,7 +53,7 @@ Base
 html, body { height: 100%; }
 
 body {
-	font:16px/1 "ff-bau-web","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font:16px/1 "Helvetica Neue",Helvetica,Arial,sans-serif;
 	color:#666;
 	-webkit-font-smoothing:antialiased;
 	text-rendering:optimizeLegibility;
@@ -137,7 +137,7 @@ h2 {
 .post h2 {
 	margin-bottom:20px;
 	color:inherit;
-	font:18px/1.7em "ff-bau-neue", "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font:18px/1.7em "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .post h2.headline {
@@ -147,7 +147,7 @@ h2 {
 }
 
 #post-list h2 {
-	font:normal 17px/1.5em "ff-bau-neue", "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font:normal 17px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
 	color:#aaa;
 	max-width:400px;
 	margin-top: 2px;
@@ -264,14 +264,14 @@ Post List
 #post-list a {
 	color:#333;
 	display:block;
-	font:19px/1.7 "ff-bau-web", "Helvetica Neue",helvetica,Arial,sans-serif;
+	font:19px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif;
 }
 
 #post-list .dates {
 	float:right;
 	position:relative;
 	top:1px;
-	font:15px/1.8 "ff-bau-web", "Helvetica Neue",helvetica,Arial,sans-serif;
+	font:15px/1.8 "Helvetica Neue",helvetica,Arial,sans-serif;
 	color:#bbb;
 }
 
@@ -421,7 +421,7 @@ h1.archive {
 
 h2.month {
 	width:100%;
-	font: 13px/1 "ff-bau-web", "Helvetica Neue",helvetica,Arial,sans-serif;
+	font: 13px/1 "Helvetica Neue",helvetica,Arial,sans-serif;
 	text-transform:uppercase;
 	margin-top:40px;
 	margin-bottom:10px;
@@ -435,7 +435,7 @@ h2.month {
 
 #archive-list a {
 	display:block;
-	font:17px/1.7 "ff-bau-web", "Helvetica Neue",helvetica,Arial,sans-serif;
+	font:17px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif;
 	color:#333;
 }
 
@@ -443,7 +443,7 @@ h2.month {
 	float:right;
 	position:relative;
 	top:1px;
-	font:normal 17px "ff-bau-web", "Helvetica Neue",helvetica,Arial,sans-serif;
+	font:normal 17px "Helvetica Neue",helvetica,Arial,sans-serif;
 	color:#bbb;
 }
 
@@ -490,4 +490,5 @@ h7 { max-width: 100%; }
   padding-top: 20px;
   border-top: 1px solid #eee;
 }
+header h3 { font-weight: bold; }
 
