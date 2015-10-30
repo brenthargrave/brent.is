@@ -27,8 +27,13 @@ configure :build do
   activate :minify_javascript
   activate :gzip
   activate :minify_html
-  activate :imageoptim
-  activate :asset_hash
+  activate :imageoptim do |options|
+    options.manifest = true
+    options.skip_missing_workers = true
+  end
+  activate :asset_hash do |opts|
+    opts.exts += %w(.asc)
+  end
   activate :relative_assets
 end
 
