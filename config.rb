@@ -21,6 +21,9 @@ activate :blog do |blog|
   end
 end
 
+activate :directory_indexes
+activate :relative_assets
+
 activate :inliner
 configure :build do
   activate :minify_css
@@ -34,13 +37,7 @@ configure :build do
   activate :asset_hash do |opts|
     opts.exts += %w(.asc)
   end
-  activate :relative_assets
 end
-
-# enables
-# writing/hello-world
-# writing/hello-world.html
-activate :directory_indexes
 
 helpers do
   def without_year date
@@ -63,4 +60,8 @@ end
 ignore "/tumbling.html"
 
 page "writing/feed.xml", layout: false
+
+activate :deploy do |deploy|
+  deploy.method = :git
+end
 

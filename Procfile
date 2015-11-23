@@ -1,1 +1,1 @@
-web: middleman server
+web: bundle exec middleman server

@@ -13,6 +13,7 @@ gem 'middleman-inliner'
 gem 'middleman-minify-html'
 gem 'middleman-imageoptim'
 gem 'middleman-dotenv'
+gem 'middleman-deploy'
 
 source 'https://rails-assets.org' do
   %w{

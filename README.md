@@ -14,16 +14,3 @@ For brevity, we'll assume you use a Mac for development.
 * Run the dev server:
     * `middleman start`
 
-
-## Deployment
-
-* Create an account on [Divshot](https://divshot.com)
-* After making changes in development, generate a deployable build:
-  * `middleman build`
-* Verify your changes on the app's remote development server:
-  * `divshot push`
-  * `divshot open development`
-* Once verified, promote the dev build to production:
-  * `divshot promote development production`
-  * `divshot open production`
-
