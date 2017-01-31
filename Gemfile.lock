@@ -202,5 +202,8 @@ DEPENDENCIES
   rails-assets-jquery-externalize!
   slim
 
+RUBY VERSION
+   ruby 2.3.0p0
+
 BUNDLED WITH
-   1.10.6
+   1.14.3
