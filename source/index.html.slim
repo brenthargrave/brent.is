@@ -3,7 +3,7 @@ ul#post-list
     li
       - url = article.url
       = link_to url do
-        aside.dates= without_year article.date
+        aside.dates= dynamic_year article.date
       = link_to url do
         | #{article.title}
         - if subtitle = article.metadata[:page]['subtitle']

@@ -46,6 +46,13 @@ helpers do
   def with_year date
     date.strftime('%b %e %Y')
   end
+  def dynamic_year date
+    if Time.now.year == date.year
+      without_year date
+    else
+      with_year date
+    end
+  end
   def author
     "Brent Hargrave"
   end
