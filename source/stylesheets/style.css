@@ -237,10 +237,17 @@ thead th,th {
 	white-space:nowrap;
 }
 
-img {
-	width:100%;
-	max-width:100%;
-	border-radius: 3px;
+img, video {
+  /*width:100%;*/
+  max-width:100%;
+  border-radius: 3px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  -webkit-filter: drop-shadow(2px 2px 2px #999);
+  filter: drop-shadow(2px 2px 2px #999);
 }
 
 /*=========================================
