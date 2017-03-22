@@ -1,4 +1,0 @@
-dark text: 262626
-light text: 916B46
-slightly lighter text: B88552
-background: FFC06C
