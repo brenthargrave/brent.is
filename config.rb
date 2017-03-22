@@ -12,6 +12,15 @@ set :js_dir, 'javascripts'
 set :images_dir, 'images'
 set :partials_dir, 'partials'
 
+set :markdown_engine, :redcarpet
+set :markdown,
+  footnotes: true,
+  fenced_code_blocks: true,
+  smartypants: true,
+  with_toc_data: true
+activate :syntax
+
+
 activate :blog do |blog|
   blog.prefix = 'writing'
   blog.layout = 'writing'

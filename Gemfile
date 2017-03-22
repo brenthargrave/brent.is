@@ -14,6 +14,8 @@ gem 'middleman-minify-html'
 gem 'middleman-imageoptim'
 gem 'middleman-dotenv'
 gem 'middleman-deploy'
+gem 'middleman-syntax'
+gem 'redcarpet'
 
 source 'https://rails-assets.org' do
   %w{
