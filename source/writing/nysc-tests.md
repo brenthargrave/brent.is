@@ -59,4 +59,4 @@ It's hard to overstate how reassuring it is to watch your code quickly and corre
 
 [^nysc]: [Kettle](https://kettlenyc.com/) hired me to work alongside their product, design, and server engineering teams as part of their extensive brand work for the club. Check out their [case study!](https://kettlenyc.com/case-studies/nysc)
 
-[^gist]: How you go about this depends on your platform, language, architecture, testing tools, etc. I'll maintain code snippets relevant to our iOS example [elsewhere](https://gist.github.com/jamescallmebrent/ebd6324dcfc3a02f6bdfaf4e6aaf3699).
+[^gist]: How you go about this depends on your platform, language, architecture, testing tools, etc. I'll maintain code snippets relevant to our iOS example [elsewhere](https://gist.github.com/brenthargrave/ebd6324dcfc3a02f6bdfaf4e6aaf3699).
