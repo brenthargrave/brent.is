@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/brenthargrave
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://brent.is
+  * I am brenthargrave (https://keybase.io/brenthargrave) on keybase.
+  * I have a public key ASA0zX2vSAWOqUP3OwnKPAzBw5Uw_yApwr7LCbgVg7DaEwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120ead8dc755fe65e1d35b2bd9ddf1d48db87ce4d049308c4596ec555c651f882950a",
+            "host": "keybase.io",
+            "kid": "012034cd7daf48058ea943f73b09ca3c0cc1c39530ff2029c2becb09b81583b0da130a",
+            "uid": "75919ad5bfef9a45fe051b3d26f86c00",
+            "username": "brenthargrave"
+        },
+        "merkle_root": {
+            "ctime": 1499570126,
+            "hash": "7c63c2eea109c683d127855a4ad33bab99bdcbd2249cd5c041ba676492b0615a1a30a37507e19bebf376b09aa34f03d90be5127f38ce6439d119afae016dcb56",
+            "hash_meta": "7932b89c37eaf94097d914142f1842b4ee406574346d66f2b0e2346a7a279e14",
+            "seqno": 1219632
+        },
+        "service": {
+            "hostname": "brent.is",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.24"
+    },
+    "ctime": 1499570201,
+    "expire_in": 504576000,
+    "prev": "28f940ebbe88b519d7b51b80842c9b88d4176c6365fd19479d7d96671bff5949",
+    "seqno": 31,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgNM19r0gFjqlD9zsJyjwMwcOVMP8gKcK+ywm4FYOw2hMKp3BheWxvYWTFA0Z7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZWFkOGRjNzU1ZmU2NWUxZDM1YjJiZDlkZGYxZDQ4ZGI4N2NlNGQwNDkzMDhjNDU5NmVjNTU1YzY1MWY4ODI5NTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMzRjZDdkYWY0ODA1OGVhOTQzZjczYjA5Y2EzYzBjYzFjMzk1MzBmZjIwMjljMmJlY2IwOWI4MTU4M2IwZGExMzBhIiwidWlkIjoiNzU5MTlhZDViZmVmOWE0NWZlMDUxYjNkMjZmODZjMDAiLCJ1c2VybmFtZSI6ImJyZW50aGFyZ3JhdmUifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0OTk1NzAxMjYsImhhc2giOiI3YzYzYzJlZWExMDljNjgzZDEyNzg1NWE0YWQzM2JhYjk5YmRjYmQyMjQ5Y2Q1YzA0MWJhNjc2NDkyYjA2MTVhMWEzMGEzNzUwN2UxOWJlYmYzNzZiMDlhYTM0ZjAzZDkwYmU1MTI3ZjM4Y2U2NDM5ZDExOWFmYWUwMTZkY2I1NiIsImhhc2hfbWV0YSI6Ijc5MzJiODljMzdlYWY5NDA5N2Q5MTQxNDJmMTg0MmI0ZWU0MDY1NzQzNDZkNjZmMmIwZTIzNDZhN2EyNzllMTQiLCJzZXFubyI6MTIxOTYzMn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJicmVudC5pcyIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjI0In0sImN0aW1lIjoxNDk5NTcwMjAxLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6IjI4Zjk0MGViYmU4OGI1MTlkN2I1MWI4MDg0MmM5Yjg4ZDQxNzZjNjM2NWZkMTk0NzlkN2Q5NjY3MWJmZjU5NDkiLCJzZXFubyI6MzEsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RA+T/VEdJ5jdyXT9gY0CJjOV6iTIjJhXk93QyKGu6M0dFK3GC4lSGBsY1Aob93h2HZTru0VBfHE7/U5an30FgdB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOGJlwVn2DLHP3bg23Z3fpLCwjAqeJwZ1Dkpcv9xs0uCo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/brenthargrave
+
+==================================================================
